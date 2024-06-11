@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zerodha</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: Inter, sans-serif;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1.1% 10%;
+
+        box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.3), 0 0 0 2px white,
+          0em 0em 0.25em rgba(0, 0, 0, 0.6);
+      }
+
+      .headerBox {
+        display: flex;
+        align-items: center;
+        gap: 43px;
+        font-family: Inter, sans-serif;
+        color: rgb(121, 121, 121);
+        font-size: 15px;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      main > img {
+        width: 53vw;
+        margin: 8vh 0;
+      }
+      .lineBold {
+        font-size: 45px;
+        font-weight: 550;
+        color: rgb(66, 66, 66);
+        margin-bottom: 15px;
+      }
+      .secondLine {
+        color: rgb(66, 66, 66);
+        font-weight: 400;
+        font-size: 20px;
+      }
+      button {
+        border: none;
+        margin: 50px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(56, 126, 209);
+        padding: 12px 30px;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 19px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="assets/logo.svg" alt="logo" width="130" />
+      <div class="headerBox">
+        <span>Signup</span>
+        <span>About</span>
+        <span>Product</span>
+        <span>Pricing </span>
+        <span>Support</span>
+        <img src="assets/menu.png" alt="" width="25" />
+      </div>
+    </header>
+    <main>
+      <img src="assets/landing.png" alt="" />
+      <span class="lineBold">Invest in everything</span>
+      <span class="secondLine"
+        >Online platform to invest in stocks, derivatives, mutual funds, and
+        more</span
+      >
+      <button>Sign up now</button>
+    </main>
+  </body>
+</html>
